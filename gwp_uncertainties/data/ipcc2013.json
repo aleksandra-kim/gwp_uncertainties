@@ -1,0 +1,364 @@
+{
+  "Chloroform": {
+    "_comment": "Table 8.A.1, Chloroform",
+    "Molecular weight": 119.38,
+    "Lifetime":  0.4,
+    "Radiative efficiency": 0.08,
+    "AGWP 20": 1.5e-12,
+    "GWP 20": 60,
+    "AGWP 100": 1.5e-12,
+    "GWP 100": 16
+  },
+  "Dinitrogen monoxide": {
+    "_comment": "Table 8.A.1, Nitrous oxide",
+    "Molecular weight": 44.013,
+    "Lifetime":  121,
+    "Radiative efficiency": 3.00e-3,
+    "AGWP 20": 6.58e-12,
+    "GWP 20": 264,
+    "AGWP 100": 2.43e-11,
+    "GWP 100": 265,
+    "f1": 0.5,
+    "f2": 0.15,
+    "delta_f1": 0.6,
+    "delta_f2": 0.7143
+  },
+  "Ethane, 1,1,1,2-tetrafluoro-, HFC-134a": {
+    "_comment": "Table 8.A.1, HFC-134a",
+    "Molecular weight": 102.03,
+    "Lifetime": 13.4,
+    "Radiative efficiency": 0.16,
+    "AGWP 20": 9.26e-11,
+    "GWP 20": 3710,
+    "AGWP 100": 1.19e-10,
+    "GWP 100": 1300
+  },
+  "Ethane, 1,1,1-trichloro-, HCFC-140": {
+    "_comment": "Table 8.A.1, Methyl chloroform",
+    "Molecular weight": 133.40,
+    "Lifetime": 5.0,
+    "Radiative efficiency": 0.07,
+    "AGWP 20": 1.44e-11,
+    "GWP 20": 578,
+    "AGWP 100": 1.47e-11,
+    "GWP 100": 160
+  },
+  "Ethane, 1,1,1-trifluoro-, HFC-143a": {
+    "_comment": "Table 8.A.1, HFC-143a",
+    "Molecular weight": 84.04,
+    "Lifetime": 47.1,
+    "Radiative efficiency": 0.16,
+    "AGWP 20": 1.73e-10,
+    "GWP 20": 6940,
+    "AGWP 100": 4.41e-10,
+    "GWP 100": 4800
+  },
+  "Ethane, 1,1,2-trichloro-1,2,2-trifluoro-, CFC-113": {
+    "_comment": "Table 8.A.1, CFC-113",
+    "Molecular weight": 187.37,
+    "Lifetime": 85.0,
+    "Radiative efficiency": 0.3,
+    "AGWP 20": 1.62e-10,
+    "GWP 20": 6490,
+    "AGWP 100": 5.34e-10,
+    "GWP 100": 5820
+  },
+  "Ethane, 1,1-dichloro-1-fluoro-, HCFC-141b": {
+    "_comment": "Table 8.A.1, HCFC-141b",
+    "Molecular weight": 116.95,
+    "Lifetime": 9.2,
+    "Radiative efficiency": 0.16,
+    "AGWP 20": 6.36e-11,
+    "GWP 20": 2550,
+    "AGWP 100": 7.17e-11,
+    "GWP 100": 782
+  },
+  "Ethane, 1,1-difluoro-, HFC-152a": {
+    "_comment": "Table 8.A.1, HFC-152a",
+    "Molecular weight": 66.05,
+    "Lifetime": 1.5,
+    "Radiative efficiency": 0.1,
+    "AGWP 20": 1.26e-11,
+    "GWP 20": 506,
+    "AGWP 100": 1.26e-11,
+    "GWP 100": 138
+  },
+  "Ethane, 1,2-dichloro-": {
+    "_comment": "Table 8.A.1, 1,2-Dichloroethane",
+    "Molecular weight": 98.96,
+    "Lifetime": 0.179,
+    "Radiative efficiency": 0.01,
+    "AGWP 20": 8.24e-14,
+    "GWP 20": 3,
+    "AGWP 100": 8.24e-14,
+    "GWP 100": 1
+  },
+  "Ethane, 1,2-dichloro-1,1,2,2-tetrafluoro-, CFC-114": {
+    "_comment": "Table 8.A.1, CFC-114",
+    "Molecular weight": 170.92,
+    "Lifetime": 190,
+    "Radiative efficiency": 0.31,
+    "AGWP 20": 1.92e-10,
+    "GWP 20": 7710,
+    "AGWP 100": 7.88e-10,
+    "GWP 100": 8590
+  },
+  "Ethane, 1-chloro-1,1-difluoro-, HCFC-142b": {
+    "_comment": "Table 8.A.1, HCFC-142b",
+    "Molecular weight": 100.49,
+    "Lifetime": 17.2,
+    "Radiative efficiency": 0.19,
+    "AGWP 20": 1.25e-10,
+    "GWP 20": 5020,
+    "AGWP 100": 1.82e-10,
+    "GWP 100": 1980
+  },
+  "Ethane, 2,2-dichloro-1,1,1-trifluoro-, HCFC-123": {
+    "_comment": "Table 8.A.1, HCFC-123",
+    "Molecular weight": 152.93,
+    "Lifetime": 1.3,
+    "Radiative efficiency": 0.15,
+    "AGWP 20": 7.28e-12,
+    "GWP 20": 292,
+    "AGWP 100": 7.28e-12,
+    "GWP 100": 79
+  },
+  "Ethane, 2-chloro-1,1,1,2-tetrafluoro-, HCFC-124": {
+    "_comment": "Table 8.A.1, HCFC-124",
+    "Molecular weight": 136.47,
+    "Lifetime": 5.9,
+    "Radiative efficiency": 0.2,
+    "AGWP 20": 4.67e-11,
+    "GWP 20": 1870,
+    "AGWP 100": 4.83e-11,
+    "GWP 100": 527
+  },
+  "Ethane, chloropentafluoro-, CFC-115": {
+    "_comment": "Table 8.A.1, CFC-115",
+    "Molecular weight": 154.46,
+    "Lifetime": 1020,
+    "Radiative efficiency": 0.2,
+    "AGWP 20": 1.46e-10,
+    "GWP 20": 5860,
+    "AGWP 100": 7.03e-10,
+    "GWP 100": 7670
+  },
+  "Ethane, hexafluoro-, HFC-116": {
+    "_comment": "Table 8.A.1, PFC-116",
+    "Molecular weight": 138.01,
+    "Lifetime": 10000,
+    "Radiative efficiency": 0.25,
+    "AGWP 20": 2.05e-10,
+    "GWP 20": 8210,
+    "AGWP 100": 1.02e-9,
+    "GWP 100": 11100
+  },
+  "Ethane, pentafluoro-, HFC-125": {
+    "_comment": "Table 8.A.1, HFC-125",
+    "Molecular weight": 120.02,
+    "Lifetime": 28.2,
+    "Radiative efficiency": 0.23,
+    "AGWP 20": 1.52e-10,
+    "GWP 20": 6090,
+    "AGWP 100": 2.91e-10,
+    "GWP 100": 3170
+  },
+  "Methane": {
+    "_comment": "Table 8.A.1, Fossil methane",
+    "Molecular weight": 16.043,
+    "Lifetime": 12.4,
+    "Radiative efficiency": 3.63e-4,
+    "AGWP 20": 2.11e-12,
+    "GWP 20": 85,
+    "AGWP 100": 2.73e-12,
+    "GWP 100": 29.7,
+    "f1": 0.5,
+    "f2": 0.15,
+    "delta_f1": 0.6,
+    "delta_f2": 0.7143
+  },
+  "Methane, bromo-, Halon 1001": {
+    "_comment": "Table 8.A.1, Methyl bromide",
+    "Molecular weight": 94.94,
+    "Lifetime": 0.8,
+    "Radiative efficiency": 0.004,
+    "AGWP 20": 2.16e-13,
+    "GWP 20": 9,
+    "AGWP 100": 2.16e-13,
+    "GWP 100": 2
+  },
+  "Methane, bromochlorodifluoro-, Halon 1211": {
+    "_comment": "Table 8.A.1, Halon 1211",
+    "Molecular weight": 165.36,
+    "Lifetime": 16.0,
+    "Radiative efficiency": 0.29,
+    "AGWP 20": 1.15e-10,
+    "GWP 20": 4590,
+    "AGWP 100": 1.60e-10,
+    "GWP 100": 1750
+  },
+  "Methane, bromotrifluoro-, Halon 1301": {
+    "_comment": "Table 8.A.1, Halon 1301",
+    "Molecular weight": 148.91,
+    "Lifetime": 65.0,
+    "Radiative efficiency": 0.3,
+    "AGWP 20": 1.95e-10,
+    "GWP 20": 7800,
+    "AGWP 100": 5.77e-10,
+    "GWP 100": 6290
+  },
+  "Methane, chlorodifluoro-, HCFC-22": {
+    "_comment": "Table 8.A.1, HCFC-22",
+    "Molecular weight": 86.47,
+    "Lifetime": 11.9,
+    "Radiative efficiency": 0.21,
+    "AGWP 20": 1.32e-10,
+    "GWP 20": 5280,
+    "AGWP 100": 1.62e-10,
+    "GWP 100": 1760
+  },
+  "Methane, chlorotrifluoro-, CFC-13": {
+    "_comment": "Table 8.A.1, CFC-13",
+    "Molecular weight": 104.46,
+    "Lifetime": 640.0,
+    "Radiative efficiency": 0.25,
+    "AGWP 20": 2.71e-10,
+    "GWP 20": 10900,
+    "AGWP 100": 1.27e-9,
+    "GWP 100": 13900
+  },
+  "Methane, dichloro-, HCC-30": {
+    "_comment": "Table 8.A.1, Methylene chloride",
+    "Molecular weight": 84.93,
+    "Lifetime": 0.4,
+    "Radiative efficiency": 0.03,
+    "AGWP 20": 8.18e-13,
+    "GWP 20": 33,
+    "AGWP 100": 8.18e-13,
+    "GWP 100": 9
+  },
+  "Methane, dichlorodifluoro-, CFC-12": {
+    "_comment": "Table 8.A.1, CFC-12",
+    "Molecular weight": 120.91,
+    "Lifetime": 100.0,
+    "Radiative efficiency": 0.32,
+    "AGWP 20": 2.69e-10,
+    "GWP 20": 10800,
+    "AGWP 100": 9.39e-10,
+    "GWP 100": 10200
+  },
+  "Methane, dichlorofluoro-, HCFC-21": {
+    "_comment": "Table 8.A.1, HCFC-21",
+    "Molecular weight": 102.92,
+    "Lifetime": 1.7,
+    "Radiative efficiency": 0.15,
+    "AGWP 20": 1.35e-11,
+    "GWP 20": 543,
+    "AGWP 100": 1.35e-11,
+    "GWP 100": 148
+  },
+  "Methane, difluoro-, HFC-32": {
+    "_comment": "Table 8.A.1, HFC-32",
+    "Molecular weight": 52.023,
+    "Lifetime": 5.2,
+    "Radiative efficiency": 0.11,
+    "AGWP 20": 6.07e-11,
+    "GWP 20": 2430,
+    "AGWP 100": 6.21e-11,
+    "GWP 100": 677
+  },
+  "Methane, monochloro-, R-40": {
+    "_comment": "Table 8.A.1, Methyl chloride",
+    "Molecular weight": 50.49,
+    "Lifetime": 1.0,
+    "Radiative efficiency": 0.01,
+    "AGWP 20": 1.12e-12,
+    "GWP 20": 45,
+    "AGWP 100": 1.12e-12,
+    "GWP 100": 12
+  },
+  "Methane, non-fossil": {
+    "_comment": "Table 8.A.1, Methane",
+    "Molecular weight": 16.043,
+    "Lifetime": 12.4,
+    "Radiative efficiency": 3.63e-4,
+    "AGWP 20": 2.09e-12,
+    "GWP 20": 84,
+    "AGWP 100": 2.61e-12,
+    "GWP 100": 28.5,
+    "f1": 0.5,
+    "f2": 0.15,
+    "delta_f1": 0.6,
+    "delta_f2": 0.7143
+  },
+  "Methane, tetrachloro-, R-10": {
+    "_comment": "Table 8.A.1, Carbon tetrachloride",
+    "Molecular weight": 153.8,
+    "Lifetime": 26.0,
+    "Radiative efficiency": 0.17,
+    "AGWP 20": 8.69e-11,
+    "GWP 20": 3480,
+    "AGWP 100": 1.59e-10,
+    "GWP 100": 1730
+  },
+  "Methane, tetrafluoro-, R-14": {
+    "_comment": "Table 8.A.1, PFC-14",
+    "Molecular weight": 88.004,
+    "Lifetime": 50000,
+    "Radiative efficiency": 0.09,
+    "AGWP 20": 1.22e-10,
+    "GWP 20": 4880,
+    "AGWP 100": 6.08e-10,
+    "GWP 100": 6630
+  },
+  "Methane, trichlorofluoro-, CFC-11": {
+    "_comment": "Table 8.A.1, CFC-11",
+    "Molecular weight": 137.36,
+    "Lifetime": 45.0,
+    "Radiative efficiency": 0.26,
+    "AGWP 20": 1.72e-10,
+    "GWP 20": 6900,
+    "AGWP 100": 4.28e-10,
+    "GWP 100": 4660
+  },
+  "Methane, trifluoro-, HFC-23": {
+    "_comment": "Table 8.A.1, HFC-23",
+    "Molecular weight": 70.014,
+    "Lifetime": 222.0,
+    "Radiative efficiency": 0.18,
+    "AGWP 20": 2.70e-10,
+    "GWP 20": 10800,
+    "AGWP 100": 1.14e-09,
+    "GWP 100": 12400
+  },
+  "Nitrogen fluoride": {
+    "_comment": "Table 8.A.1, Nitrogen trifluoride",
+    "Molecular weight": 71.002,
+    "Lifetime": 500.0,
+    "Radiative efficiency": 0.2,
+    "AGWP 20": 3.19e-10,
+    "GWP 20": 12800,
+    "AGWP 100": 1.47e-09,
+    "GWP 100": 16100
+  },
+  "Perfluoropentane": {
+    "_comment": "Table 8.A.1, Perfluoropentane",
+    "Molecular weight": 288.03,
+    "Lifetime": 4100.0,
+    "Radiative efficiency": 0.41,
+    "AGWP 20": 1.58e-10,
+    "GWP 20": 6350,
+    "AGWP 100": 7.84e-10,
+    "GWP 100": 8550
+  },
+  "Sulfur hexafluoride": {
+    "_comment": "Table 8.A.1, Sulfur hexafluoride",
+    "Molecular weight": 146.06,
+    "Lifetime": 3200.0,
+    "Radiative efficiency": 0.57,
+    "AGWP 20": 4.37e-10,
+    "GWP 20": 17500,
+    "AGWP 100": 2.16e-09,
+    "GWP 100": 23500
+  }
+}

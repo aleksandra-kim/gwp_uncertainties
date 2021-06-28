@@ -1,4 +1,7 @@
 from .version import version as __version__
 
-def add_gwp_uncertainties():
+
+
+def create_bw_method_with_gwp_uncertainties(time_horizon=100):
+
     return()
