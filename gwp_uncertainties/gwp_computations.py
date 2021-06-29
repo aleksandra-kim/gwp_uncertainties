@@ -3,7 +3,7 @@ import numpy  as  np
 from scipy.stats import norm
 import stats_arrays as sa
 
-# Molecular weights taken from https://pubchem.ncbi.nlm.nih.gov/
+
 
 # Local files
 from .constants import air_molecular_weight, atmosphere_total_mass, substances_data

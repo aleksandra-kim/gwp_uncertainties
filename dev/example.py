@@ -1,6 +1,6 @@
 import bw2calc as bc
 import bw2data as bd
-from gwp_uncertainties.code import get_uncertain_flows
+from gwp_uncertainties.gwp_computations import get_uncertain_flows
 
 time_horizon = 100 # TODO choose
 
