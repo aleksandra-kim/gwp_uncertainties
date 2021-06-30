@@ -20,10 +20,13 @@ f(x_1,...,x_k)
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5CDelta+f+%3D+%5Csqrt%7B%5Csum_i+%28%5CDelta+f_i%29%5E2%7D+%3D+%5Csqrt%7B%5Csum_i+%5Cbig%28+%5Cfrac%7B%5Cpartial+f%7D%7B%5Cpartial+x_i%7D+%5CDelta+x_i++%5Cbig%29%5E2%7D%0A),
 
 where in our case, `f` is a function that computes GWP values, and inputs `x` depend on the flow:
-- x = (lifetime, radiative efficiency) for all flows except for methane and nitrous oxide
-- x = (lifetime, radiative efficiency, f1, f2) for methane and nitrous oxide (see 8.SM.11.3.2 and 8.SM.11.3.3 of the IPCC supplementary materials)
+- `x = (lifetime, radiative efficiency)` for all flows except for methane and nitrous oxide
+- `x = (lifetime, radiative efficiency, f1, f2)` for methane and nitrous oxide (see 8.SM.11.3.2 and 8.SM.11.3.3 of the IPCC supplementary materials), where `f1` is added due to effects on ozone and `f2` is due to stratospheric H2O.
 
-Uncertainties in the inputs `x` are given in Table 8.SM.12 and Section 8.3.1.
+Uncertainties in the inputs `x` are given in Table 8.SM.12 and Section 8.3.1. Uncertainty ![\Delta f
+](https://render.githubusercontent.com/render/math?math=%5Ctextstyle+%5CDelta+f%0A%0A) corresponds to a 90% confidence interval, and is converted to standard deviation of normal distribution by scaling it down by 1.645. 
+
+A special case is carbon monoxide, where we assume uniform distribution (see Table 8.A.4).
 
 Note that
 - Uncertainties in NOx and VOC have not been taken into account in the current implementation. GWP values are given in Tables 8.A.3 and 8.A.5 respectively.
