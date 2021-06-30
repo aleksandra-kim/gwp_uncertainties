@@ -1,5 +1,5 @@
-Welcome to gsa_uncertainties!
-=========================
+Welcome to gwp_uncertainties!
+=============================
 
 This package allows computation of uncertainties in GWP and AGWP values for environmental flows with known radiative efficiencies, lifetimes and their respective perturbations.
 
