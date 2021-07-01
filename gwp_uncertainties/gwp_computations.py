@@ -8,19 +8,21 @@ import stats_arrays as sa
 from .constants import air_molecular_weight, atmosphere_total_mass, substances_data
 
 
-def get_uncertain_flows(time_horizon=100):
+def get_uncertain_flows(time_horizon=100, verbose=False):
     method = ('IPCC 2013', 'climate change', 'GWP {}a'.format(time_horizon))
     bw_method = bd.Method(method)
 
     act_names = {
         bd.get_activity(flow[0])['name'] for flow in bw_method.load()
-        if "Carbon dioxide" not in bd.get_activity(flow[0])['name']
-           and "Carbon monoxide" not in bd.get_activity(flow[0])['name']
+        if "Carbon dioxide" not in bd.get_activity(flow[0])['name']         # GWP=1, no uncertainties by definition
+           and "Carbon monoxide" not in bd.get_activity(flow[0])['name']    # Add manually as uniformly distributed
+           and "Nitric oxide" not in bd.get_activity(flow[0])['name']       # Assume not enought data for uncertainties
+           and "VOC" not in bd.get_activity(flow[0])['name']                # Assume not enought data for uncertainties
     }
 
     delta_std_multiplier_dict = {}
     for i,act_name in enumerate(act_names):
-        _, delta_std_multiplier_dict[act_name] = compute_delta_std_multiplier(act_name, time_horizon, i + 1)
+        _, delta_std_multiplier_dict[act_name] = compute_delta_std_multiplier(act_name, time_horizon, verbose, i + 1)
 
     flows_list = []
     for flow in bw_method.load():
@@ -28,7 +30,7 @@ def get_uncertain_flows(time_horizon=100):
         if 'Carbon dioxide' in act['name']:
             flows_list.append(flow)
         elif 'Carbon monoxide' in act['name']:
-            if ', fossil' or ', from soil or biomass stock' in act['name']:
+            if ', fossil' in act['name'] or ', from soil or biomass stock' in act['name']:
                 oxidation = 1.5714
             elif ', non-fossil' in act['name']:
                 oxidation = 0
