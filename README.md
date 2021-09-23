@@ -34,3 +34,5 @@ Note that
 Results
 =======
 ![flows_gwp_uncertainties](docs/gwp_uncertainties.svg)
+
+![table values](docs/gwp_uncertainties_table.png)
