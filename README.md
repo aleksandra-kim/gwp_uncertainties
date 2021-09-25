@@ -30,3 +30,9 @@ A special case is carbon monoxide, where we assume uniform distribution (see Tab
 
 Note that
 - Uncertainties in NOx and VOC have not been taken into account in the current implementation. GWP values are given in Tables 8.A.3 and 8.A.5 respectively.
+
+Results
+=======
+![flows_gwp_uncertainties](docs/gwp_uncertainties.svg)
+
+![table values](docs/gwp_uncertainties_table.png)
