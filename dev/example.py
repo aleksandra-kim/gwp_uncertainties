@@ -40,3 +40,5 @@ if __name__ == "__main__":
     print("LCA scores WITH uncertainties in GWP -> std={}".format(
         np.std(lca_scores_uncertain_gwp))
     )
+
+
