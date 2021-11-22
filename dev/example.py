@@ -18,25 +18,24 @@ if __name__ == "__main__":
     print(demand_act)
     method = ('IPCC 2013', 'climate change', 'GWP {}a'.format(time_horizon))
     uncertain_method = method + ('uncertain',)
+    # lca = bc.LCA(demand, method)
+    # lca.lci()
+    # lca.lcia()
+    # print("{} LCA score with standard IPCC method".format(lca.score))
+    # ulca = bc.LCA(demand, uncertain_method)
+    # ulca.lci()
+    # ulca.lcia()
+    # print("{} LCA score with uncertain IPCC method".format(ulca.score))
 
-    lca = bc.LCA(demand, method)
-    lca.lci()
-    lca.lcia()
-    print("{} LCA score with standard IPCC method".format(lca.score))
-    ulca = bc.LCA(demand, uncertain_method)
-    ulca.lci()
-    ulca.lcia()
-    print("{} LCA score with uncertain IPCC method".format(ulca.score))
+    iterations = 100
+    mc_certain_gwp = bc.ParallelMonteCarlo(demand, method, iterations)
+    lca_scores_certain_gwp = np.array(mc_certain_gwp.calculate())
+    print("LCA scores W/O  uncertainties in GWP -> std={}".format(
+        np.std(lca_scores_certain_gwp))
+    )
 
-    # iterations = 100
-    # mc_certain_gwp = bc.ParallelMonteCarlo(demand, method, iterations)
-    # lca_scores_certain_gwp = np.array(mc_certain_gwp.calculate())
-    # print("LCA scores W/O  uncertainties in GWP -> std={}".format(
-    #     np.std(lca_scores_certain_gwp))
-    # )
-
-    # mc_uncertain_gwp = bc.ParallelMonteCarlo(demand, uncertain_method, iterations)
-    # lca_scores_uncertain_gwp = np.array(mc_uncertain_gwp.calculate())
-    # print("LCA scores WITH uncertainties in GWP -> std={}".format(
-    #     np.std(lca_scores_uncertain_gwp))
-    # )
+    mc_uncertain_gwp = bc.ParallelMonteCarlo(demand, uncertain_method, iterations)
+    lca_scores_uncertain_gwp = np.array(mc_uncertain_gwp.calculate())
+    print("LCA scores WITH uncertainties in GWP -> std={}".format(
+        np.std(lca_scores_uncertain_gwp))
+    )
